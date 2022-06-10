@@ -38,7 +38,7 @@ app.post('/users', (request, response) => {
   }
   users.push(user); 
 
-  return response.status(201).json(addedUser);
+  return response.status(201).json(user);
 });
 
 app.get('/users', (request, response) => {
